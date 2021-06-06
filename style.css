@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Monda', sans-serif;
+}
+
+/* ---------------------------HEADER SECTION--------------------------- */
+
+.header{
+    background-color: #3C065E;
+}
+
+/* ---------------------------NAV-BAR SECTION--------------------------- */
+.nav_bar{
+    height: 60px;
+    background-color: #3C065E;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.nav_bar img{
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.nav-right{
+    float: right;
+}
+
+.menu_bar{
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+/* ---------------------------HEADER-BODY SECTION--------------------------- */
+
+.h_body{
+    color: #ffffff;
+    height: 700px;
+    display: flex;
+
+}
+
+.h_title{
+    margin-left: 8vw;
+    padding-top: 10vw;
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 900;
+    width: 40vw;
+}
+
+
+.h_title p{
+    margin-top: 50px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.h_btn{
+    height: 45px;
+    width: 220px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #29B7DD;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.h_btn:hover{
+    background-color: #0d83a3 ;
+} 
+
+.h_img{
+    margin-top: 5vw;
+    margin-left: 3vw;
+}
+.h_img img{
+    width: 600px;
+}
+
+/* ---------------------------BODY SECTION--------------------------- */
+
+.feature-heading{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.feature-para{
+    font-size: 16px;
+    text-align: center;
+    font-weight: lighter;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+/* ---------------------------FEATURE SECTION--------------------------- */
+
+.features{
+    display: flex;
+}
+
+/* ---------------------------FEATURE-IMAGE SECTION--------------------------- */
+
+.feature-image{
+   display: inline-block;
+}
+
+.feature-image img{
+    height: 42vw;
+    width: 42vw;
+    object-fit: cover;
+    margin-left: 8vw;
+}
+
+/* ---------------------------FEATURE-GRID SECTION--------------------------- */
+
+.feature-section{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    color: #ffffff;
+    font-size: 1.5vw;
+}
+
+.feature-box{
+    /* background-color: aliceblue; */
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+    margin-top: 7vw;
+    margin-left: auto;
+}
+
+.all-fbox{
+    width: 20vw;
+    height: 20vw;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    
+}
+.development{
+    background-color: #29B7DD;
+}
+.development img{
+    width: 4vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.top-skills{
+    background-color: #8B72EE;
+}
+.top-skills img{
+    width: 4.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.design{
+    background-color: #5D3BE7;
+}
+.design img{
+    width: 4.5vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.responsive{
+    background-color: #BD72EF;
+}
+.responsive img{
+    width: 4vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+/* ---------------------------Data Visualization SECTION--------------------------- */
+
+.data_heading{
+    background-color: #3B065E;
+    color: #ffffff;
+}
+
+.data_heading h1{
+    font-size: 60px;
+    font-weight: 900;
+    padding-top: 100px;
+    margin-left: 8vw;
+    margin-bottom: 1.5vw;
+}
+
+/* ---------------------------Data desc SECTION--------------------------- */
+
+.data_desc{
+    display: flex;
+}
+
+.data_desc img{
+    width: 45vw;
+    height: 35vw;
+    margin-left: 8vw;
+}
+
+/* ---------------------------Data list SECTION--------------------------- */
+
+.data-para{
+    margin-left: 15vw;
+}
+
+.data-para li{
+    font-size: 2.5vw;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.data-para p{
+    margin-bottom: 20px;
+    width: 20vw;
+    font-size: 1.3vw;
+}
+
+.data-para a{
+    text-decoration: none;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 1.2vw;
+    text-transform: uppercase;
+    margin-bottom: 6vw;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    padding: 0px 5px 0px 5px;
+}
+
+.data-para a:hover{
+    border-radius: 5px;
+    background-color: #1f7c96;
+}
+
+
+/* ---------------------------IT solutions SECTION--------------------------- */
+
+.it-all{
+    display: flex;
+}
+
+.it_heading{
+    margin-left: 8vw;
+    margin-top: 150px;
+}
+.it_heading h1{
+    color: #29B7DD;
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 400px;
+}
+
+.it_heading p{
+    font-size: 20px;
+}
+
+.it_heading button{
+    height: 45px;
+    width: 200px;
+    border-radius: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    border-style: none;
+    background-color: #29B7DD;
+    color: #ffffff;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.it_heading button:hover{
+    background-color: #0d83a3 ;
+}
+
+.it-img img{
+    width: 570px;
+    margin-left: 15vw;
+    margin-top: 100px;
+}
+
+
+
+/* ---------------------------Get in Touch! SECTION--------------------------- */
+
+
+.git-sec{
+    background-color: #3C065E;
+    color: #ffffff;
+    text-align: center;
+}
+
+.git-heading h1{
+    padding-top: 5vw;
+    font-size: 4vw;
+}
+
+.git-heading p{
+    font-size: 1.2vw;
+    letter-spacing: 2px;
+}
+
+.git-details{
+    display: flex;
+    justify-content: center;
+}
+
+.all-gbox{
+    background-color: #ffffff;
+    height: 18vw;
+    width: 25vw;
+    margin: 5vw 1.5vw 5vw 1.5vw;
+    color: gray;
+}
+
+.gbox{
+    display: inline-block;
+    padding-top: 3.5vw;
+    width: 80%;
+}
+
+
+
+
+/* -----------------media query----------------- */
+
+
+
+
+
+@media (max-width: 1250px) {
+
+    .nav_bar{
+        height: 50px;
+        background-color: #3C065E;
+    }
+    
+    .nav_bar img{
+        height: 30px;
+    }
+
+    .menu_bar{
+        height: 20px;
+        margin-top: 15px;
+        margin-right: 20px;
+    }
+
+    /* .h_body{
+        width: 1024px;
+    } */
+   .h_title h1{
+       font-size: 3vw;
+   }
+   .h_title p{
+       font-size: 1.5vw;
+       font-weight: normal;
+       margin-bottom: 2.5vw;
+   }
+
+   .data_heading h1 {
+       font-size: 5evw;
+   }
+   .data-para p{
+       font-size: 1.4vw;
+       margin-bottom: 2px;
+   }
+
+   .data-para a{
+       font-size: 1.3vw;
+   }
+
+   .it-all{
+       width: 1024px;
+   }
+   .it-img img{
+       margin-left: 20px;
+       width: 50vw;
+   }
+   .git-sec {
+       margin-top: 20px;
+   }
+
+    .gbox{
+    padding-top: 2.5vw;
+    width: 80%;
+    font-size: 1.5vw;
+}
+
+}
+
+@media (max-width: 400px) {
+    .nav_bar{
+        height: 30px;
+        width: 100%;
+        /* background-color: hsl(277, 100%, 92%); */
+    }
+
+    .nav_bar img{
+        height: 20px;
+        margin-top: 5px;
+    }
+
+    .menu_bar{
+        height: 17px;
+        margin-top: 6px;
+        margin-right: 20px;
+    }
+
+    .h_body{
+        flex-direction: column;
+    }
+
+    .h_body h1{
+        font-size: 4vh;
+    }
+
+    .h_title p{
+        margin-top: 25px;
+        font-size: 15px;
+        width: 300px;
+    }
+
+    .h_body button{
+        width: 40vw;
+        height: 30px;
+        font-size: 3.2vw;
+    }
+
+    .h_img img{
+        width: 100vw;
+    }
+
+    .h_img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .feature-heading{
+        font-size: 30px;
+    }
+    .feature-para{
+        font-size: 12px;
+    }
+
+
+
+    .features{
+        flex-direction: column;
+    }
+    .feature-image{
+        margin-left: 5vw;
+        margin-bottom: 5vw;
+    }
+    .feature-image img{
+        height: 90vw;
+        width: 90vw;
+        margin: 0;
+        border-radius: 20px;
+    }
+
+
+    .feature-section{
+        flex-direction: column;
+        font-size: 5vw;
+    }
+
+    .feature-box{
+        height: 50vw;
+        width: 60vw;
+        margin-top: 5vw;
+    }
+
+.all-fbox{
+    width: 90vw;
+    height: 60vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    border-radius: 20px;
+}
+
+.development img{
+    width: 15vw;
+    margin-top: 10vw;
+}
+
+.top-skills img{
+    width: 17vw;
+    margin-top: 10vw;
+}
+
+.design img{
+    width: 17vw;
+    margin-top: 10vw;
+}
+
+.responsive img{
+    width: 15vw;
+    margin-top: 10vw;
+}
+
+.data_heading{
+    text-align: center;
+}
+
+.data_heading h1{
+    font-size: 8vw;
+    padding-top: 10vw;
+    margin-left: 0;
+    margin-bottom: 2vw;
+}
+
+
+.data_desc{
+    flex-direction: column;
+}
+
+.data_desc img{
+    width: 90vw;
+    height: 60vw;
+    margin-left: 5vw;
+    margin-bottom: 3vw;
+    border-radius: 20px;
+}
+
+
+
+.data-para{
+    margin-left: 0vw;
+}
+
+.data-para li{
+    font-size: 5vw;
+    list-style: none;
+}
+
+.data-para p{
+    display: inline-block;
+    width: 90vw;
+    font-size: 3vw;
+}
+
+.data-para a{
+    font-size: 3vw;
+    border-bottom: none;
+    padding: 0px 5px 0px 2px;
+}
+
+.data-para a:hover{
+    border-radius: 0;
+    background: none;
+}
+
+
+
+.it-all{
+    flex-direction: column;
+   display: inline;
+}
+
+.it_heading{
+    margin-left: 0vw;
+    margin-top: 100px;
+    text-align: center;
+}
+.it_heading h1{
+    font-size: 8vw;
+    display: inline;   
+}
+
+.it_heading p{
+    font-size: 4vw;
+}
+
+.it_heading button{
+    height: 35px;
+    width: 40vw;
+    font-size: 3vw;
+    margin-top: 30px;
+}
+
+.it_heading button:hover{
+   background: none;
+}
+
+.it-img img{
+    width: 80vw;
+    margin-left: 8vw;
+    margin-top: 8vw;
+}
+
+
+
+
+
+.git-heading h1{
+    padding-top: 5vw;
+    font-size: 5vw;
+}
+
+.git-heading p{
+    font-size: 2.2vw;
+    letter-spacing: 0px;
+}
+
+
+
+.all-gbox{
+    height: 25vw;
+    width: 30vw;
+    margin: 2vw 1vw 5vw 1vw;
+}
+
+.gbox{
+    display: inline-block;
+    padding-top: 3.5vw;
+    width: 80%;
+    font-size: 2;
+}
+.gbox img{
+    height: 10vw;
+}
+
+
+}
